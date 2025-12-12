@@ -1,0 +1,15 @@
+{
+  "name": "teeinblue-rect-artwork-backend",
+  "version": "1.0.0",
+  "description": "Legt rechteckige Artworks ohne Background-Removal auf Tragetaschen-Mockup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.33.3"
+  }
+}
