@@ -251,7 +251,7 @@ app.get("/tee-black-preview", async (req, res) => {
       artworkUrl,
       mockupUrl: TEE_BLACK_MOCKUP_URL,
       // gleiche Positionierung wie beim weißen Shirt
-      scale: 0.36,
+      scale: 0.14,
       offsetX: 0.31, // kleiner geht nach links
       offsetY: 0.26, // kleiner geht nach oben
       overlayUrl: TEE_BLACK_OVERLAY_URL,
