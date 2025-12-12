@@ -63,7 +63,6 @@ async function placeArtworkOnMockup({ artworkUrl, mockupUrl, scale, offsetX, off
   // in PNG mit Alpha konvertieren + **um –90° drehen**
   const artPng = await sharp(artBuf)
     .ensureAlpha()
-    .rotate(90)   // <-- EINZIGE ÄNDERUNG
     .jpeg({ quality: 90 })
     .toBuffer();
 
